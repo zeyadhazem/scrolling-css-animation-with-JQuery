@@ -1,0 +1,53 @@
+#abovethefold{
+	background: #3e4360;
+	height: 740px;
+	text-align: center;
+	color: #fff;
+}
+
+h1{
+	font-family: "Source Sans Pro";
+	font-weight: 300;
+	font-size: 3em;
+	padding-top: 325px;
+}
+
+#scroll{
+	margin-top: 200px;
+	margin-bottom: 200px;
+	text-align: center;
+}
+
+#scroll img{
+	position: relative;
+}
+
+#phone{
+	z-index: 2;
+}
+.animate{
+	transition: 2s ease-in-out;
+	-moz-transition: 2s ease-in-out;
+	-webkit-transition: 2s ease-in-out;
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	animation-duration: 1s;
+}
+
+#phone.animate{
+	transform: translate(5em, 0);
+	-webkit-transform: translate(5em, 0);
+	-moz-transform: translate(5em, 0);
+}
+
+#tablet.animate{
+	transform: translate(-9em, 0);
+	-webkit-transform: translate(-9em, 0);
+	-moz-transform: translate(-9em, 0);
+}
+
